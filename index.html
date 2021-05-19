@@ -17,6 +17,7 @@ A:hover {text-decoration: none; /* Делает ссылку подчеркну�
  </style>
 
 
+
   </head>
   <style>
   body{background:#9be0d9 url(123.jpg);}
@@ -45,7 +46,7 @@ A:hover {text-decoration: none; /* Делает ссылку подчеркну�
       </p>
 
 
-
+</iframe>
       <style>
       html {
         scroll-behavior: smooth;
@@ -54,7 +55,6 @@ A:hover {text-decoration: none; /* Делает ссылку подчеркну�
         white-space: pre-line;
       }
       </style>
-
 
 
 <style >
@@ -89,6 +89,21 @@ A:hover {text-decoration: none; /* Делает ссылку подчеркну�
   <button style="position: relative; left: -3%; bottom: -25px; height: 45px; background-color:#B0C4DE;"<li><a href="#666">Контакти</a>
 </li></button>
 
+<form name="comment" action="comment.php" method="post">
+<p>
+  <label>Ваше имя:</label>
+  <input type="text" name="name" />
+</p>
+<p>
+  <label>Ваш комментарий:</label>
+  <br />
+  <textarea name="text_comment" cols="30" rows="50"></textarea>
+</p>
+<p>
+  <input type="hidden" name="page_id" value="150" />
+  <input type="submit" value="Отправить комментарий" />
+</p>
+</form>
 
       <style>
       div {
@@ -118,6 +133,8 @@ A:hover {text-decoration: none; /* Делает ссылку подчеркну�
 </tr>
 </tbody>
   </table>
+
+
   <hr>
   <p align="center">
   <img src="P1010387.JPG"width="100%"height="100%" alt="" class="round">
